@@ -13,3 +13,4 @@ Não consegui rodar o JMC no meu computador, então pedi para um colega rodar pr
 
 ## Usando o JMC, como o tempo de execução se divide entre os diversos métodos invocados em cada caso?
 Como não consegui usar o JMC na minha máquina, não foi possível fazer uma análise onde eu tivesse um entendimento claro em relação a divisão do tempo de execução.
+ 
