@@ -1,0 +1,6 @@
+RFC-covtypeNorm-1:  3min 49s
+RFC-GMSC-1: 57.1s
+RFC-GMSC-2: 44.5s
+XGB-GMSC-1: 44.9s
+XGB-GMSC-2: 13.4s
+XGB-GMSC-4: 17.4s
