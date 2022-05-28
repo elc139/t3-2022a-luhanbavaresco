@@ -1,0 +1,37 @@
+
+Options: -learner XGBClassifier -parameters tree_method='hist',n_jobs=2 -py-command python3 
+
+=== Classifier model (full training set) ===
+
+XGBClassifier(n_jobs=2, tree_method='hist')
+
+Time taken to build model: 5.98 seconds
+
+Time taken to test model on test split: 0.79 seconds
+
+=== Error on test split ===
+
+Correctly Classified Instances       28172               93.9067 %
+Incorrectly Classified Instances      1828                6.0933 %
+Kappa statistic                          0.2647
+Mean absolute error                      0.0967
+Root mean squared error                  0.2184
+Relative absolute error                 78.2898 %
+Root relative squared error             88.5648 %
+Total Number of Instances            30000     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.991    0.811    0.946      0.991    0.968      0.314    0.863     0.987     0
+                 0.189    0.009    0.600      0.189    0.288      0.314    0.863     0.403     1
+Weighted Avg.    0.939    0.759    0.924      0.939    0.924      0.314    0.863     0.949     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 27803   246 |     a = 0
+  1582   369 |     b = 1
+

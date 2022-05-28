@@ -1,0 +1,3 @@
+[0.086s][error][jfr,startup] Could not parse settings file '/resultado/profile.jfc'
+Error occurred during initialization of VM
+Failure when starting JFR on_create_vm_3

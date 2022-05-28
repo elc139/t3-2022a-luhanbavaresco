@@ -1,0 +1,66 @@
+
+Options: -learner XGBClassifier -parameters tree_method='hist',n_jobs=1 -py-command python3 
+
+=== Classifier model (full training set) ===
+
+XGBClassifier(tree_method='hist')
+
+Time taken to build model: 6.31 seconds
+
+Time taken to test model on training data: 2.98 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances      140730               93.82   %
+Incorrectly Classified Instances      9270                6.18   %
+Kappa statistic                          0.2773
+Mean absolute error                      0.0978
+Root mean squared error                  0.2202
+Relative absolute error                 78.4021 %
+Root relative squared error             88.1869 %
+Total Number of Instances           150000     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.991    0.801    0.945      0.991    0.968      0.327    0.868     0.987     0
+                 0.199    0.009    0.617      0.199    0.301      0.327    0.868     0.414     1
+Weighted Avg.    0.938    0.748    0.923      0.938    0.923      0.327    0.868     0.949     
+
+
+=== Confusion Matrix ===
+
+      a      b   <-- classified as
+ 138735   1239 |      a = 0
+   8031   1995 |      b = 1
+
+Time taken to perform cross-validation: 30.17 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances      140604               93.736  %
+Incorrectly Classified Instances      9396                6.264  %
+Kappa statistic                          0.2644
+Mean absolute error                      0.0984
+Root mean squared error                  0.2216
+Relative absolute error                 78.8844 %
+Root relative squared error             88.7125 %
+Total Number of Instances           150000     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.991    0.810    0.945      0.991    0.967      0.313    0.864     0.987     0
+                 0.190    0.009    0.599      0.190    0.288      0.313    0.864     0.399     1
+Weighted Avg.    0.937    0.757    0.922      0.937    0.922      0.313    0.864     0.947     
+
+
+=== Confusion Matrix ===
+
+      a      b   <-- classified as
+ 138703   1271 |      a = 0
+   8125   1901 |      b = 1
+
